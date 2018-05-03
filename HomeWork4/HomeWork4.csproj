@@ -56,6 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="game_trust.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="passwd.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
